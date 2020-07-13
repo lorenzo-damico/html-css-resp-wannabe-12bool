@@ -1,25 +1,75 @@
-/* REGOLE GENERALI */
+/* REGOLE GENERALI DESKTOP */
 body {
   text-align: center;
+}
+section {
+  padding-top: 30px;
 }
 h2 {
   font-size: 32px;
   margin-bottom: 20px;
 }
+img {
+  height: 200px;
+  margin-top: 40px;
+}
 h3 {
   margin: 10px 0;
 }
-img {
-  height: 200px;
+p {
+  width: 90%;
+  margin: auto;
 }
-/* /REGOLE GENERALI */
 
-.where-section {
-  padding-top: 30px;
-}
+/* /REGOLE GENERALI DESKTOP */
+
+/* /REGOLE GENERALI RESPONSIVE */
 @media screen and (max-width: 768px) {
   img {
-    height: 150px;
-    margin-top: 20px;
+    height: 130px;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  img {
+    height: 170px;
+  }
+}
+/* /REGOLE GENERALI RESPONSIVE */
+
+/* REGOLE HOW-SECTION DESKTOP */
+.how-section {
+  background-color: #f9f9f9;
+  margin: 50px 0;
+ }
+/* /REGOLE HOW-SECTION DESKTOP */
+
+/* REGOLE WHY-SECTION DESKTOP */
+.why-section {
+  background-color: #f9f9f9;
+}
+.why-section img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+}
+.why-section p {
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+/* /REGOLE WHY-SECTION DESKTOP */
+
+/* REGOLE WHY-SECTION RESPONSIVE */
+@media all and (min-width: 993px) {
+  .why-section img {
+    height: 260px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .why-section p {
+    height: 100px;
+  }
+}
+/* /REGOLE WHY-SECTION DESKTOP */
