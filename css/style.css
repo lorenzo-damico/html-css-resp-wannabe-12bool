@@ -1,6 +1,25 @@
-.where-section-title {
-  padding-top: 20px;
+/* REGOLE GENERALI */
+body {
+  text-align: center;
 }
 h2 {
-  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+h3 {
+  margin: 10px 0;
+}
+img {
+  height: 200px;
+}
+/* /REGOLE GENERALI */
+
+.where-section {
+  padding-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  img {
+    height: 150px;
+    margin-top: 20px;
+  }
 }
